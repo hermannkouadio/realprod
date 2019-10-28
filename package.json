@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "postinstall": "ng build --aot --prod cea-ui",
+    "postinstall": "ng build --aot -prod cea-ui",
     "heroku-postbuild": "ng build --prod cea-ui",
     "build": "ng build",
     "test": "ng test",
