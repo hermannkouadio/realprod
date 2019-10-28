@@ -1,0 +1,274 @@
+/*
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+*/
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+html, body{
+   font-family: 'Arimo', sans-serif;
+   font-size: 100%;
+   background:#fff; 
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.logo{
+	float: left;
+}
+.logo320{
+	display:none;
+}
+div#home {
+	padding: 3em 0px 6em 0px;
+	background: #fc9a49;
+	position: relative;
+}
+.top-nav ul li a {
+	color: #000;
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+	font-weight: 600;
+	text-decoration: none;
+	display: block;
+	padding: 0px 13px;
+	background: #fff;
+}
+.top-nav ul li.active a,
+.top-nav ul li a:hover{
+	color:#fff;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	background: #000;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.top-nav ul li a span{
+	/*background:url('../src/assets/images/sprit-1.png') no-repeat 0px -1px;*/
+	width:22px;
+	height:22px;
+	display:inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.logo a{
+	display:block;
+}
+.logo a img {
+	width: 100%;
+}
+/* top-nav */
+.top-nav:before,
+.top-nav:after {
+    content: " ";
+    display: table;
+}
+.top-nav:after {
+    clear: both;
+}
+.top-nav {
+	float: right;
+}
+.top-nav ul {
+	padding: 0;
+	float: right;
+	margin-top: 12px;
+}
+.top-nav li {
+	display: inline;
+	float: left;
+	position:relative;
+}
+.top-nav a {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+}
+.top-nav a:hover{
+	text-decoration:none;
+	color:#00A2C1;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+/*Styles for screen 600px and lower*/
+@media (max-width: 768px) {
+  	.top-nav ul li.active a, .top-nav ul li a:hover {
+	border-bottom: none;
+	}
+	.top-nav ul li a {
+	padding: 0 10px;
+	}
+}
+/*Styles for screen 515px and lower*/
+/*--end-header--*/
+
+/*--start-navgation--*/
+.search2 {
+	position: relative;
+	background: rgb(255, 255, 255);
+	padding: 5px 0px;
+	width: 18%;
+	float: right;
+	margin: 7px 6em 0px 0em;
+}
+.search2 input[type="text"] {
+	outline: none;
+	color: rgba(7, 131, 3, 0.34);
+	padding-left: 10px;
+	background: none;
+	font-size: 15px;
+	border: none;
+	width: 79.33%;
+}
+.search2 input[type="submit"] {
+	/*background: url('../images/sprit-1.png') no-repeat -22px 0px;*/
+	padding: 0px 15px;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	outline: none;
+	margin: 2px 0px 0px 13px;
+}
+ul.nav li {
+	display: inline-block;
+	margin: 0px 4px;
+}
+.menu {
+	width: 60%;
+	float: left;
+	margin-left: 3em;
+}
+.navgation {
+	position: absolute;
+	width: 77%;
+	top: 83%;
+	left: 12%;
+	background: #fff;
+	padding: 10px 10px;
+}
+.menu li a{
+  	display: block;
+	font-size: 18px;
+	font-weight:400;
+	color:rgb(105, 105, 105);
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	text-align:center;
+}
+#nav .current a {
+    	color:#fb326f;
+   	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.menu li a:hover,.menu li a.active{
+	color:#000;
+} 
+.toggleMenu {
+	display:  none;
+    	border-radius:2em; 
+    	-webkit-border-radius:2em;
+    	-moz-border-radius:2em;
+    	-o-border-radius:2em; 
+    	float:right;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+}
+.nav > li > a {
+	margin: 0px 10px;
+	padding: 10px 4px;
+}
+@media screen and (max-width:800px) {
+    .active {
+        display: block;
+    }
+    
+    .nav {
+	list-style: none;
+	width: 100%;
+	position: absolute;
+	right: 0px;
+	top: 50px;
+	z-index: 9999;
+	}
+   .menu li a span.messages{
+    	text-align:center;
+    	top:15px;
+    }
+    .nav li ul{
+    	width:100%;   	
+    }
+    .menu ul{
+    	margin:0;
+    }
+    .nav > li.hover > ul {
+        width:100%;
+    }
+    .nav > li {
+        float: none;
+        display:block;
+    }
+    .nav ul {
+        display: block;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+     .nav li:first-child a{
+     	border-top:none;
+	display: block;
+     }
+ }
+ @media (max-width:768px){
+.toggleMenu img {
+	width: 95%;
+	margin-top: 2px;
+}
+.menu ul.nav{
+	margin-top:0px;
+}
+ul.nav{
+        display:none;
+	background:#000;
+	border:1px solid #fff;
+	padding: 7px 0px;
+}
+.menu ul.nav li{
+       	display:block;
+       	text-align:center;
+      	margin:1px;
+      	padding: 3px;
+}
+}
+/*--end-navgation--*/
