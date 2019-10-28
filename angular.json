@@ -26,7 +26,13 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-1.11.0.min.js",
+              "src/assets/js/modernizr.custom.min.js",
+              "src/assets/js/jquery.magnific-popup.js",          
+              "src/assets/js/responsive-nav.js",
+              "src/assets/js/myscript.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -120,6 +126,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "cea-ui"
 }
